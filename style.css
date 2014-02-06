@@ -1,0 +1,156 @@
+/*
+ Theme Name:     Twenty Thirteen Child
+ Theme URI:      http://neurodonau.de/twenty-thirteen-child/
+ Description:    Twenty Thirteen Child Theme - Dr. Brandstädter
+ Author:         DonC-Media
+ Author URI:     http://donc.de
+ Template:       twentythirteen
+ Version:        1.0.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/* Seite */
+.site {border-left: 0px; border-right: 0px; max-width:100%;}
+/* Inhalt */
+.page .entry-header, .page .entry-content {padding-left: 75px;}
+.hentry {padding:40px 0 10px 0;}
+/* Footer */
+.site-footer, .site-footer .sidebar-container {background-color: #f2f2f2;}
+
+.footer-nav {font-size:90%;}
+ul#menu-footer {margin-left: -45px;}
+
+.open_hours td {padding: 0; border-top:0;}
+table.open_hours {border-bottom:0;}
+.widget {padding:5px;}
+.widget .widget-title {font-family: "Source Sans Pro", Helvetica, sans-serif; font-weight: lighter; font-size:20px; font-style: normal;}
+.sidebar .site-footer .widget-area {max-width: 1040px; left:0;}
+.sidebar .site-footer .widget {width:300px;}
+.site-footer .widget {width:300px; color:#3A3A3A;}
+.footer-nav ul li {float:left; list-style-type: none; padding-right: 3px; text-transform: uppercase;}
+.copy {float:right;}
+#footer_bottom {width:100%; background-color:#fff;border-top:1px solid #d0043c;}
+.scroll-to-top {float: right; position: relative; top: -20px; right: 80px; font-weight: bold;}
+
+
+/* Text */
+body {color: #878787;}
+.entry-title {font-weight:lighter;}
+h1 {font-size: 20px; text-transform: uppercase;font-weight: lighter; margin:33px 0 15px 0;}
+h2 {font-size: 18px; text-transform: uppercase;font-weight: lighter; margin:30px 0 10px 0;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {color:#3A3A3A;
+	clear: both;
+	font-family: 'Roboto Condensed', Bitter, Georgia, serif;
+	line-height: 1.3;
+	font-weight: lighter;
+}
+.donc-top {margin-top:0px;} /*Abstand zur Überschrift aufheben, wenn es mit Unterüberschrigt weitergeht */
+.entry-title a {color:#1d1d1d;}
+.site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {color:#d0043c;letter-spacing: -0.02em; font-size: 19px}
+.site-title {font-size:30px;}
+.entry-content a {color:#1d1d1d;}
+.entry-content a:hover {color:#d0043c;}
+#post-9 .entry-content a {color:#878787;}
+
+/* Navigation */
+.navbar {background-color: #fff; padding-top: 20px; border-top: 3px solid #d0043c;max-width:100%;}
+.nav-menu li a {color:#1d1d1d; padding: 15px 20px 5px 20px;}
+.nav-menu li:hover > a, .nav-menu li a:hover {background-color: #d0043c;}
+ul.nav-menu, div.nav-menu > ul {float:left;}
+.logo_nav {float: left; padding-right: 100px;}
+a.logo {color:#1d1d1d;}
+.logo_nav>h1 {font-weight:lighter;font-size:16px; margin:2px 0;}
+.nav-menu .current_page_item > a span, .nav-menu .current-page-ancestor > a span, .nav-menu .current-menu-item > a span, .nav-menu .current-menu-ancestor > a span, .parent-pageid-5 #menu-item-156 a span{border-bottom:6px solid #DDD;font-style: normal; color:#d0043c;}
+ul.nav-menu, div.nav-menu > ul {padding-top:15px;}
+#menu-item-156 a {color:#d0043c;}
+#menu-item-156 a:hover,#menu-item-156 a:active {color:#d0043c;}
+.parent-pageid-5 #menu-item-156 a span
+/* Buttons */
+button, input[type="submit"], input[type="button"], input[type="reset"] {
+background: #d0043c;
+background: -webkit-linear-gradient(top, #d0043c 0%, #d0043c 100%);
+background: linear-gradient(to bottom, #d0043c 0%, #d0043c 100%);
+border: none;
+border-bottom: 3px solid #d0043c;
+border-radius: 0px;
+color: #fff;
+display: inline-block;
+padding: 11px 24px 10px;
+text-decoration: none;}
+
+button, input, textarea {border:1px solid #ccc;}
+
+/* Home */
+.entry-content>.colmns {
+    -moz-column-count: 2;    -moz-column-gap: 2em;
+    -webkit-column-count: 2; -webkit-column-gap: 2em;
+}
+#post-13 .entry-header, #post-13 .entry-content, #post-13 .entry-summary, #post-13 .entry-meta {max-width:750px;}
+
+/* Sidebar */
+.site-main .widget-area {float:left;}
+.sidebar-container .entry-header, .sidebar-container .entry-content, .sidebar-container .entry-summary, .sidebar-container .entry-meta {
+max-width: 1040px;
+padding: 0 60px 0 430px;}
+.sidebar-container .widget {background-color:transparent;}
+.sidebar-container .widget a {color:#1d1d1d;}
+.sidebar-container .widget .current-menu-item a {color:#d0043c;}
+.nav-menu li:hover > a, .nav-menu li a:hover {color: #d0043c;background-color: #fff;}
+.sidebartitle h1{font-weight:lighter;margin: 0 0 15px 0;}
+ul#menu-leistungen li {text-transform: uppercase;}
+.textwidget img {padding-bottom: 10px;}
+.img_caption {text-transform: uppercase}
+.widget {margin: 0 0 14px; font-size:100%;}
+
+/* Kontakt-Page */
+#post-11 .entry-header {display:none;}
+#post-11 .entry-header, #post-11 .entry-content, #post-11 .entry-summary, #post-11 .entry-meta {padding-left: 250px;max-width: 755px;}
+#post-11 .entry-title {padding-left:45px;}
+.page-id-11 .open_hours td {font-size: 15px;}
+.page-id-11 .widget-area {width: 400px;}
+
+/*Fix für überlappende Sidebar auf Kontakt */
+.page-id-11 #main {min-height:1330px;}
+/*Fix für überlappende Sidebar auf Kontakt */
+.page-id-72 #main {min-height:500px;}
+
+/* Aktuelles */
+
+.headline-aktuelles {margin-bottom:-60px;}
+
+/* Header Bilder */
+.rev_slider_wrapper {text-align: center; }
+.rev_slider_wrapper>img.attachment-full {border-bottom: 1px solid #d0043c; }
+#rev_slider_1_1 {border-bottom: 1px solid #d0043c;}
+
+/* Media Queries */
+@media (max-width: 1069px) {
+	ul#menu-footer {margin-left: 0px;}
+	}
+@media (max-width: 999px) {
+	#post-11 .entry-header, #post-11 .entry-content, #post-11 .entry-summary, #post-11 .entry-meta {padding-left:75px; max-width: 100%;}
+	.entry-header, .entry-content, .entry-summary, .entry-meta {padding-left:75px; max-width: 100%;}
+	.site-main .sidebar-container {max-width:100%;padding-left:75px;}
+	.entry-content>.colmns {
+-moz-column-count: 1;
+-moz-column-gap: 2em;
+-webkit-column-count: 1;
+-webkit-column-gap: 2em;
+	}
+	.page-id-11 #main {min-height:100%;}
+	}
+
+@media (max-width: 767px) {
+	.page .entry-header, .page .entry-content {padding:10px; width:100%;}
+	#post-11 .entry-header, #post-11 .entry-content, #post-11 .entry-summary, #post-11 .entry-meta {padding-left:10px; max-width: 100%;}
+	
+	.site-main .sidebar-container {max-width:100%;padding-left:10px;}
+	}
