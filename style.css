@@ -19,10 +19,8 @@
 .hentry {padding:40px 0 10px 0;}
 /* Footer */
 .site-footer, .site-footer .sidebar-container {background-color: #f2f2f2;}
-
 .footer-nav {font-size:90%;}
 ul#menu-footer {margin-left: -45px;}
-
 .open_hours td {padding: 0; border-top:0;}
 table.open_hours {border-bottom:0;}
 .widget {padding:5px;}
@@ -34,7 +32,6 @@ table.open_hours {border-bottom:0;}
 .copy {float:right;}
 #footer_bottom {width:100%; background-color:#fff;border-top:1px solid #d0043c;}
 .scroll-to-top {float: right; position: relative; top: -20px; right: 80px; font-weight: bold;}
-
 
 /* Text */
 body {color: #878787;}
@@ -74,6 +71,7 @@ ul.nav-menu, div.nav-menu > ul {padding-top:15px;}
 #menu-item-156 a:hover,#menu-item-156 a:active {color:#d0043c;}
 .parent-pageid-5 #menu-item-156 a span
 /* Buttons */
+
 button, input[type="submit"], input[type="button"], input[type="reset"] {
 background: #d0043c;
 background: -webkit-linear-gradient(top, #d0043c 0%, #d0043c 100%);
@@ -85,7 +83,6 @@ color: #fff;
 display: inline-block;
 padding: 11px 24px 10px;
 text-decoration: none;}
-
 button, input, textarea {border:1px solid #ccc;}
 
 /* Home */
@@ -123,7 +120,6 @@ ul#menu-leistungen li {text-transform: uppercase;}
 .page-id-72 #main {min-height:500px;}
 
 /* Aktuelles */
-
 .headline-aktuelles {margin-bottom:-60px;}
 
 /* Header Bilder */
