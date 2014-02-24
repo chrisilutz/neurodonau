@@ -16,10 +16,10 @@
 			}
 		},
 		{
-			"contents": "Local:    master F:\\krawietz\\Brandstädter\\wordpress\\brand_child\nHead:     66c5db7 Erster Commit von neurodonau.de\n\n\nStaged changes:\n	Modified   style.css\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree",
+			"contents": "Remote:   origin @ git@github.com:chrisilutz/neurodonau.git\nLocal:    master F:\\krawietz\\Brandstädter\\wordpress\\brand_child\nHead:     410753b child css aufgeräumt\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree",
 			"settings":
 			{
-				"buffer_size": 855,
+				"buffer_size": 909,
 				"line_ending": "Windows",
 				"name": "*git-status*: brand_child",
 				"read_only": true,
@@ -46,7 +46,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 35.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -54,12 +54,20 @@
 				"Git: Push"
 			],
 			[
+				"gitad",
+				"Git: Add Remote"
+			],
+			[
 				"gita",
 				"Git: Add Remote"
 			],
 			[
 				"git",
-				"Git: Checkout"
+				"Git: Help"
+			],
+			[
+				"git st",
+				"Git: Status"
 			],
 			[
 				"gre",
@@ -127,6 +135,7 @@
 	},
 	"file_history":
 	[
+		"/F/krawietz/Brandstädter/wordpress/brand_child/.git/config",
 		"/C/Users/Christian/AppData/Roaming/Sublime Text 3/Packages/CSScomb JS/CSScomb JS.sublime-settings",
 		"/C/Users/Christian/AppData/Roaming/Sublime Text 3/Packages/CSScomb JS/README.md",
 		"/C/Users/Christian/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
@@ -202,15 +211,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 855,
+						"buffer_size": 909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								165,
+								165
 							]
 						],
 						"settings":
